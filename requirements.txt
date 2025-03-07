@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+pyarrow
+transformers
+torch==2.6.0
+tensorflow
+keras
+datasets
+sentencepiece

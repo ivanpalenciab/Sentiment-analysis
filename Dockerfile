@@ -1,8 +1,8 @@
-FROM python:3.12
-
-RUN pip install --no-cache-dir jupyter pandas scikit-learn matplotlib keras tensorflow
+FROM jupyter/datascience-notebook
 
 COPY . .
+
+RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8888
 
